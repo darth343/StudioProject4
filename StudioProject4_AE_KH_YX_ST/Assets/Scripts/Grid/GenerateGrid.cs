@@ -11,7 +11,6 @@ public class GenerateGrid : MonoBehaviour {
     // Initialise before game starts or just when game is about to start
     void Awake()
     {
-        Debug.Log("run");
         // Create rows
         for (int x = 0; x < m_width; x += 10)
         { // Create columns
